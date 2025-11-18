@@ -1,3 +1,9 @@
+import { Button } from "./components/ui/button";
+
 export const App = () => {
-  return <div className="text-3xl font-bold underline">App</div>;
+  return (
+    <div>
+      <Button>버튼</Button>
+    </div>
+  );
 };
